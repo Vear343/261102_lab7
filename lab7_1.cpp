@@ -3,10 +3,10 @@
 using namespace std;
 
 int main() {
-    int a  =  20, b = 30;
-    double c = 4, output;
+    int a  =  20, b = 30, c = 4;
+    double output;
 
-    output = a - b/c;
+    output = a - (double) b/c;
     cout << "output: " << output << endl;
     return 0;
 }
