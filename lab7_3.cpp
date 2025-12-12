@@ -3,6 +3,17 @@ using namespace std;
 
 char before(char x){
 	//Write your function definition here
+	char n_char;
+	if ( x >= 'B' and x <= 'Z'){
+		n_char = x - 1;
+	}
+	else if(x == 65){
+		n_char = 'Z';
+	}
+	else{
+		n_char = '0';
+	}
+	return n_char;
 }
 
 int main(){
